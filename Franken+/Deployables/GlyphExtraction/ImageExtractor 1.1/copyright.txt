@@ -1,0 +1,17 @@
+PAGE Image Extractor 1.1
+Copyright 2012 PRImA Research Group, University of Salford, UK
+
+This software in its entirety must not be copied, distributed or
+used without permission from PRImA.
+
+Under no circumstances will PRImA be liable in any way for any
+content or for any loss or damage of any kind incurred as a result
+of the use of this software.
+
+
+For copyright of the used third party libraries
+LibTIFF (http://www.remotesensing.org/libtiff/)
+see the respective websites.
+
+For copyright of included ALTO XML schema see:
+http://www.loc.gov/standards/alto/

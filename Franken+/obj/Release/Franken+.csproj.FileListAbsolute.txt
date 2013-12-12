@@ -1,0 +1,16 @@
+G:\Dropbox\Projects\Franken+\Franken+\bin\Release\Franken+.exe.config
+G:\Dropbox\Projects\Franken+\Franken+\bin\Release\Franken+.exe
+G:\Dropbox\Projects\Franken+\Franken+\bin\Release\Franken+.pdb
+G:\Dropbox\Projects\Franken+\Franken+\bin\Release\BitMiracle.LibTiff.NET.dll
+G:\Dropbox\Projects\Franken+\Franken+\obj\Release\Franken+.csprojResolveAssemblyReference.cache
+G:\Dropbox\Projects\Franken+\Franken+\obj\Release\Franken_.dbConnectionForm.resources
+G:\Dropbox\Projects\Franken+\Franken+\obj\Release\Franken_.Main.resources
+G:\Dropbox\Projects\Franken+\Franken+\obj\Release\Franken_.NewFont.resources
+G:\Dropbox\Projects\Franken+\Franken+\obj\Release\Franken_.NewLanguage.resources
+G:\Dropbox\Projects\Franken+\Franken+\obj\Release\Franken_.NewSubstitution.resources
+G:\Dropbox\Projects\Franken+\Franken+\obj\Release\Franken_.Progress.resources
+G:\Dropbox\Projects\Franken+\Franken+\obj\Release\Franken_.Properties.Resources.resources
+G:\Dropbox\Projects\Franken+\Franken+\obj\Release\Franken_.TrainTesseract.resources
+G:\Dropbox\Projects\Franken+\Franken+\obj\Release\Franken+.csproj.GenerateResource.Cache
+G:\Dropbox\Projects\Franken+\Franken+\obj\Release\Franken+.exe
+G:\Dropbox\Projects\Franken+\Franken+\obj\Release\Franken+.pdb

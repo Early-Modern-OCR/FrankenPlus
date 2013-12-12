@@ -1,0 +1,77 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Franken+", "Franken+\Franken+.csproj", "{F6023DF1-5781-4AB5-8B73-1BD3EF462A19}"
+EndProject
+Project("{6141683F-8A12-4E36-9623-2EB02B2C2303}") = "Setup", "Setup\Setup.isproj", "{9C156C2F-BF20-4981-9BA2-B8118C674545}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F6023DF1-5781-4AB5-8B73-1BD3EF462A19} = {F6023DF1-5781-4AB5-8B73-1BD3EF462A19}
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Help", "http://localhost:62672", "{98D47618-99AB-4801-A64C-97FA13C8F658}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_62672"
+		Debug.AspNetCompiler.PhysicalPath = "Help\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_62672\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_62672"
+		Release.AspNetCompiler.PhysicalPath = "Help\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_62672\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "Help\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		CD_ROM|Any CPU = CD_ROM|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		DVD-5|Any CPU = DVD-5|Any CPU
+		Release|Any CPU = Release|Any CPU
+		SingleImage|Any CPU = SingleImage|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F6023DF1-5781-4AB5-8B73-1BD3EF462A19}.CD_ROM|Any CPU.ActiveCfg = Release|Any CPU
+		{F6023DF1-5781-4AB5-8B73-1BD3EF462A19}.CD_ROM|Any CPU.Build.0 = Release|Any CPU
+		{F6023DF1-5781-4AB5-8B73-1BD3EF462A19}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{F6023DF1-5781-4AB5-8B73-1BD3EF462A19}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{F6023DF1-5781-4AB5-8B73-1BD3EF462A19}.DVD-5|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6023DF1-5781-4AB5-8B73-1BD3EF462A19}.DVD-5|Any CPU.Build.0 = Debug|Any CPU
+		{F6023DF1-5781-4AB5-8B73-1BD3EF462A19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6023DF1-5781-4AB5-8B73-1BD3EF462A19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6023DF1-5781-4AB5-8B73-1BD3EF462A19}.SingleImage|Any CPU.ActiveCfg = Release|Any CPU
+		{F6023DF1-5781-4AB5-8B73-1BD3EF462A19}.SingleImage|Any CPU.Build.0 = Release|Any CPU
+		{9C156C2F-BF20-4981-9BA2-B8118C674545}.CD_ROM|Any CPU.ActiveCfg = CD_ROM
+		{9C156C2F-BF20-4981-9BA2-B8118C674545}.CD_ROM|Any CPU.Build.0 = CD_ROM
+		{9C156C2F-BF20-4981-9BA2-B8118C674545}.Debug|Any CPU.ActiveCfg = DVD-5
+		{9C156C2F-BF20-4981-9BA2-B8118C674545}.Debug|Any CPU.Build.0 = DVD-5
+		{9C156C2F-BF20-4981-9BA2-B8118C674545}.DVD-5|Any CPU.ActiveCfg = DVD-5
+		{9C156C2F-BF20-4981-9BA2-B8118C674545}.DVD-5|Any CPU.Build.0 = DVD-5
+		{9C156C2F-BF20-4981-9BA2-B8118C674545}.Release|Any CPU.ActiveCfg = SingleImage
+		{9C156C2F-BF20-4981-9BA2-B8118C674545}.Release|Any CPU.Build.0 = SingleImage
+		{9C156C2F-BF20-4981-9BA2-B8118C674545}.SingleImage|Any CPU.ActiveCfg = SingleImage
+		{9C156C2F-BF20-4981-9BA2-B8118C674545}.SingleImage|Any CPU.Build.0 = SingleImage
+		{98D47618-99AB-4801-A64C-97FA13C8F658}.CD_ROM|Any CPU.ActiveCfg = Debug|Any CPU
+		{98D47618-99AB-4801-A64C-97FA13C8F658}.CD_ROM|Any CPU.Build.0 = Debug|Any CPU
+		{98D47618-99AB-4801-A64C-97FA13C8F658}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98D47618-99AB-4801-A64C-97FA13C8F658}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98D47618-99AB-4801-A64C-97FA13C8F658}.DVD-5|Any CPU.ActiveCfg = Debug|Any CPU
+		{98D47618-99AB-4801-A64C-97FA13C8F658}.DVD-5|Any CPU.Build.0 = Debug|Any CPU
+		{98D47618-99AB-4801-A64C-97FA13C8F658}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{98D47618-99AB-4801-A64C-97FA13C8F658}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{98D47618-99AB-4801-A64C-97FA13C8F658}.SingleImage|Any CPU.ActiveCfg = Debug|Any CPU
+		{98D47618-99AB-4801-A64C-97FA13C8F658}.SingleImage|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

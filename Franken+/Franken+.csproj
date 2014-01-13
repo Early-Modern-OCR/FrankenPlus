@@ -130,6 +130,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Reclassify.resx">
+      <DependentUpon>Reclassify.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="TrainTesseract.resx">
       <DependentUpon>TrainTesseract.cs</DependentUpon>
     </EmbeddedResource>

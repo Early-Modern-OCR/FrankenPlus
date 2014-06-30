@@ -119,26 +119,18 @@ namespace Franken_.App_Code
 
         public void IngestImages(string LangName, string FontName, string BaseName, string XMLFile, string PathToImages, bool UseSubList)
         {
-            XDocument AletheiaDoc = XDocument.Load(XMLFile);
-            XNamespace ns = "http://schema.primaresearch.org/PAGE/gts/pagecontent/2010-03-19";
+            PageXml pageXml = PageXmlFactory.GetPageXml(XMLFile);
 
-            var Extracts = from REC in AletheiaDoc.Descendants(ns + "Glyph")
-                select new
-                {
-                    ID = (string)(REC.Attribute("id") ?? new XAttribute("id", string.Empty)),
-                    Char = (string)((REC.Element(ns + "TextEquiv") != null) ? (REC.Element(ns + "TextEquiv").Element(ns + "Unicode") != null)
-                    ? REC.Element(ns + "TextEquiv").Element(ns + "Unicode").Value : string.Empty
-                    : string.Empty)
-                };
+            var Extracts = pageXml.GetGlyphs();
 
             string[] GlyphFiles = System.IO.Directory.GetFiles(PathToImages);
 
             foreach (var E in Extracts)
             {
-                if (E.ID != "" && E.Char.Trim() != "")
+                if (E.ID != "" && E.Unicode.Trim() != "")
                 {
                     string ImagePath = "";
-                    string FixedChar = E.Char.Trim();
+                    string FixedChar = E.Unicode.Trim();
                     if(UseSubList)
                         FixedChar = FixGlyphChar(FixedChar);
 

@@ -85,6 +85,18 @@
     <Compile Include="NewSubstitution.Designer.cs">
       <DependentUpon>NewSubstitution.cs</DependentUpon>
     </Compile>
+    <Compile Include="PageXml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PageXmlFactory.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PageXmlV2.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PageXmlV3.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Progress.cs">
       <SubType>Form</SubType>

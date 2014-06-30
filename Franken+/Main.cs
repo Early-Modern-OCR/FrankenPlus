@@ -120,9 +120,6 @@ namespace Franken_
             {
                 App_Code.Font myFont = new App_Code.Font(FontID, true, true);
 
-                string Extractor = "ImageExtractor-1-1-26.exe";
-                string ExtractorPath = db.DataDirectory + "\\GlyphExtraction\\ImageExtractor 1.1";
-                string ExtractorOptions = "type glyph";
                 string FullInputDir = TiffXMLFolder + "\\";
                 string FullOutputDir = db.DataDirectory + "\\GlyphExtraction\\Output\\" + myFont.ID;
 
@@ -154,8 +151,18 @@ namespace Franken_
                             ProcessStatus = "Extracting " + inputFileName + "...";
                             Slave.ReportProgress(((int)(CurrentProgress * Increment)));
 
-                            ExecuteCommand(ExtractorPath + "\\" + Extractor, ExtractorOptions + " \"" + FullInputDir + inputFileName.Replace(".xml", ".tif") + "\" \"" + FullInputDir + inputFileName + "\" \"" + FullOutputDir + "\\" + inputFileName.Replace(".xml", "") + "\"", ExtractorPath);
+                            string inputImageFilePath = FullInputDir + inputFileName.Replace(".xml", ".tif");
+                            string inputXmlFilePath = FullInputDir + inputFileName;
+                            string outputFolderPath = FullOutputDir + "\\" + inputFileName.Replace(".xml", "");
 
+                            PageXml pageXml = PageXmlFactory.GetPageXml(F);
+
+                            string extractor = pageXml.ImageExtratorRelPath;
+                            string command = string.Format(@"{0}\GlyphExtraction\{1}", db.DataDirectory, extractor);
+                            FileInfo extractorExec = new FileInfo(command);
+                            string options = pageXml.CreateImageExtractorCommandLine(inputImageFilePath, inputXmlFilePath, outputFolderPath);
+
+                            ExecuteCommand(command, options, extractorExec.DirectoryName);
                             CurrentProgress++;
                             ProcessStatus = "Processing extracted images...";
                             Slave.ReportProgress(((int)(CurrentProgress * Increment)));

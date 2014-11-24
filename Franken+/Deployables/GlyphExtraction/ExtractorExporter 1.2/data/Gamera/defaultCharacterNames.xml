@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Parameters>
+ 
+<Parameter type="4" sortIndex="1" version="0" name="0021" readOnly="false" isSet="true" visible="false" value="latin.punctuation.exclamation" id="1" textType="0"/>	   
+<Parameter type="4" sortIndex="2" version="0" name="0022" readOnly="false" isSet="true" visible="false" value="latin.punctuation.quotation" id="2" textType="0"/>	   
+	   
+	   
+	   
+	   
+<Parameter type="4" sortIndex="7" version="0" name="0027" readOnly="false" isSet="true" visible="false" value="latin.punctuation.apostrophe" id="7" textType="0"/>	   
+<Parameter type="4" sortIndex="8" version="0" name="0028" readOnly="false" isSet="true" visible="false" value="latin.punctuation.leftparentheses" id="8" textType="0"/>	   
+<Parameter type="4" sortIndex="9" version="0" name="0029" readOnly="false" isSet="true" visible="false" value="latin.punctuation.rightparentheses" id="9" textType="0"/>	   
+<Parameter type="4" sortIndex="10" version="0" name="002A" readOnly="false" isSet="true" visible="false" value="latin.punctuation.asterisk" id="10" textType="0"/>	   
+<Parameter type="4" sortIndex="11" version="0" name="002B" readOnly="false" isSet="true" visible="false" value="latin.punctuation.plus" id="11" textType="0"/>	   
+<Parameter type="4" sortIndex="12" version="0" name="002C" readOnly="false" isSet="true" visible="false" value="latin.punctuation.comma" id="12" textType="0"/>	   
+<Parameter type="4" sortIndex="13" version="0" name="002D" readOnly="false" isSet="true" visible="false" value="latin.punctuation.hyphen" id="13" textType="0"/>	   
+<Parameter type="4" sortIndex="14" version="0" name="002E" readOnly="false" isSet="true" visible="false" value="latin.punctuation.period" id="14" textType="0"/>	   
+	   
+<Parameter type="4" sortIndex="16" version="0" name="0030" readOnly="false" isSet="true" visible="false" value="digit.zero" id="16" textType="0"/>	   
+<Parameter type="4" sortIndex="17" version="0" name="0031" readOnly="false" isSet="true" visible="false" value="digit.one" id="17" textType="0"/>	   
+<Parameter type="4" sortIndex="18" version="0" name="0032" readOnly="false" isSet="true" visible="false" value="digit.two" id="18" textType="0"/>	   
+<Parameter type="4" sortIndex="19" version="0" name="0033" readOnly="false" isSet="true" visible="false" value="digit.three" id="19" textType="0"/>	   
+<Parameter type="4" sortIndex="20" version="0" name="0034" readOnly="false" isSet="true" visible="false" value="digit.four" id="20" textType="0"/>	   
+<Parameter type="4" sortIndex="21" version="0" name="0035" readOnly="false" isSet="true" visible="false" value="digit.five" id="21" textType="0"/>	   
+<Parameter type="4" sortIndex="22" version="0" name="0036" readOnly="false" isSet="true" visible="false" value="digit.six" id="22" textType="0"/>	   
+<Parameter type="4" sortIndex="23" version="0" name="0037" readOnly="false" isSet="true" visible="false" value="digit.seven" id="23" textType="0"/>	   
+<Parameter type="4" sortIndex="24" version="0" name="0038" readOnly="false" isSet="true" visible="false" value="digit.eight" id="24" textType="0"/>	   
+<Parameter type="4" sortIndex="25" version="0" name="0039" readOnly="false" isSet="true" visible="false" value="digit.nine" id="25" textType="0"/>	   
+<Parameter type="4" sortIndex="26" version="0" name="003A" readOnly="false" isSet="true" visible="false" value="latin.punctuation.colon" id="26" textType="0"/>	   
+<Parameter type="4" sortIndex="27" version="0" name="003B" readOnly="false" isSet="true" visible="false" value="latin.punctuation.semicolon" id="27" textType="0"/>	   
+	   
+	   
+	   
+<Parameter type="4" sortIndex="31" version="0" name="003F" readOnly="false" isSet="true" visible="false" value="latin.punctuation.question" id="31" textType="0"/>	   
+	   
+<Parameter type="4" sortIndex="33" version="0" name="0041" readOnly="false" isSet="true" visible="false" value="latin.capital.letter.a" id="33" textType="0"/>	   
+<Parameter type="4" sortIndex="34" version="0" name="0042" readOnly="false" isSet="true" visible="false" value="latin.capital.letter.b" id="34" textType="0"/>	   
+<Parameter type="4" sortIndex="35" version="0" name="0043" readOnly="false" isSet="true" visible="false" value="latin.capital.letter.c" id="35" textType="0"/>	   
+<Parameter type="4" sortIndex="36" version="0" name="0044" readOnly="false" isSet="true" visible="false" value="latin.capital.letter.d" id="36" textType="0"/>	   
+<Parameter type="4" sortIndex="37" version="0" name="0045" readOnly="false" isSet="true" visible="false" value="latin.capital.letter.e" id="37" textType="0"/>	   
+<Parameter type="4" sortIndex="38" version="0" name="0046" readOnly="false" isSet="true" visible="false" value="latin.capital.letter.f" id="38" textType="0"/>	   
+<Parameter type="4" sortIndex="39" version="0" name="0047" readOnly="false" isSet="true" visible="false" value="latin.capital.letter.g" id="39" textType="0"/>	   
+<Parameter type="4" sortIndex="40" version="0" name="0048" readOnly="false" isSet="true" visible="false" value="latin.capital.letter.h" id="40" textType="0"/>	   
+<Parameter type="4" sortIndex="41" version="0" name="0049" readOnly="false" isSet="true" visible="false" value="latin.capital.letter.i" id="41" textType="0"/>	   
+<Parameter type="4" sortIndex="42" version="0" name="004A" readOnly="false" isSet="true" visible="false" value="latin.capital.letter.j" id="42" textType="0"/>	   
+<Parameter type="4" sortIndex="43" version="0" name="004B" readOnly="false" isSet="true" visible="false" value="latin.capital.letter.k" id="43" textType="0"/>	   
+<Parameter type="4" sortIndex="44" version="0" name="004C" readOnly="false" isSet="true" visible="false" value="latin.capital.letter.l" id="44" textType="0"/>	   
+<Parameter type="4" sortIndex="45" version="0" name="004D" readOnly="false" isSet="true" visible="false" value="latin.capital.letter.m" id="45" textType="0"/>	   
+<Parameter type="4" sortIndex="46" version="0" name="004E" readOnly="false" isSet="true" visible="false" value="latin.capital.letter.n" id="46" textType="0"/>	   
+<Parameter type="4" sortIndex="47" version="0" name="004F" readOnly="false" isSet="true" visible="false" value="latin.capital.letter.o" id="47" textType="0"/>	   
+<Parameter type="4" sortIndex="48" version="0" name="0050" readOnly="false" isSet="true" visible="false" value="latin.capital.letter.p" id="48" textType="0"/>	   
+<Parameter type="4" sortIndex="49" version="0" name="0051" readOnly="false" isSet="true" visible="false" value="latin.capital.letter.q" id="49" textType="0"/>	   
+<Parameter type="4" sortIndex="50" version="0" name="0052" readOnly="false" isSet="true" visible="false" value="latin.capital.letter.r" id="50" textType="0"/>	   
+<Parameter type="4" sortIndex="51" version="0" name="0053" readOnly="false" isSet="true" visible="false" value="latin.capital.letter.s" id="51" textType="0"/>	   
+<Parameter type="4" sortIndex="52" version="0" name="0054" readOnly="false" isSet="true" visible="false" value="latin.capital.letter.t" id="52" textType="0"/>	   
+<Parameter type="4" sortIndex="53" version="0" name="0055" readOnly="false" isSet="true" visible="false" value="latin.capital.letter.u" id="53" textType="0"/>	   
+<Parameter type="4" sortIndex="54" version="0" name="0056" readOnly="false" isSet="true" visible="false" value="latin.capital.letter.v" id="54" textType="0"/>	   
+<Parameter type="4" sortIndex="55" version="0" name="0057" readOnly="false" isSet="true" visible="false" value="latin.capital.letter.w" id="55" textType="0"/>	   
+<Parameter type="4" sortIndex="56" version="0" name="0058" readOnly="false" isSet="true" visible="false" value="latin.capital.letter.x" id="56" textType="0"/>	   
+<Parameter type="4" sortIndex="57" version="0" name="0059" readOnly="false" isSet="true" visible="false" value="latin.capital.letter.y" id="57" textType="0"/>	   
+<Parameter type="4" sortIndex="58" version="0" name="005A" readOnly="false" isSet="true" visible="false" value="latin.capital.letter.z" id="58" textType="0"/>	   
+	   
+	   
+	   
+	   
+	   
+	   
+<Parameter type="4" sortIndex="65" version="0" name="0061" readOnly="false" isSet="true" visible="false" value="latin.small.letter.a" id="65" textType="0"/>	   
+<Parameter type="4" sortIndex="66" version="0" name="0062" readOnly="false" isSet="true" visible="false" value="latin.small.letter.b" id="66" textType="0"/>	   
+<Parameter type="4" sortIndex="67" version="0" name="0063" readOnly="false" isSet="true" visible="false" value="latin.small.letter.c" id="67" textType="0"/>	   
+<Parameter type="4" sortIndex="68" version="0" name="0064" readOnly="false" isSet="true" visible="false" value="latin.small.letter.d" id="68" textType="0"/>	   
+<Parameter type="4" sortIndex="69" version="0" name="0065" readOnly="false" isSet="true" visible="false" value="latin.small.letter.e" id="69" textType="0"/>	   
+<Parameter type="4" sortIndex="70" version="0" name="0066" readOnly="false" isSet="true" visible="false" value="latin.small.letter.f" id="70" textType="0"/>	   
+<Parameter type="4" sortIndex="71" version="0" name="0067" readOnly="false" isSet="true" visible="false" value="latin.small.letter.g" id="71" textType="0"/>	   
+<Parameter type="4" sortIndex="72" version="0" name="0068" readOnly="false" isSet="true" visible="false" value="latin.small.letter.h" id="72" textType="0"/>	   
+<Parameter type="4" sortIndex="73" version="0" name="0069" readOnly="false" isSet="true" visible="false" value="latin.small.letter.i" id="73" textType="0"/>	   
+<Parameter type="4" sortIndex="74" version="0" name="006A" readOnly="false" isSet="true" visible="false" value="latin.small.letter.j" id="74" textType="0"/>	   
+<Parameter type="4" sortIndex="75" version="0" name="006B" readOnly="false" isSet="true" visible="false" value="latin.small.letter.k" id="75" textType="0"/>	   
+<Parameter type="4" sortIndex="76" version="0" name="006C" readOnly="false" isSet="true" visible="false" value="latin.small.letter.l" id="76" textType="0"/>	   
+<Parameter type="4" sortIndex="77" version="0" name="006D" readOnly="false" isSet="true" visible="false" value="latin.small.letter.m" id="77" textType="0"/>	   
+<Parameter type="4" sortIndex="78" version="0" name="006E" readOnly="false" isSet="true" visible="false" value="latin.small.letter.n" id="78" textType="0"/>	   
+<Parameter type="4" sortIndex="79" version="0" name="006F" readOnly="false" isSet="true" visible="false" value="latin.small.letter.o" id="79" textType="0"/>	   
+<Parameter type="4" sortIndex="80" version="0" name="0070" readOnly="false" isSet="true" visible="false" value="latin.small.letter.p" id="80" textType="0"/>	   
+<Parameter type="4" sortIndex="81" version="0" name="0071" readOnly="false" isSet="true" visible="false" value="latin.small.letter.q" id="81" textType="0"/>	   
+<Parameter type="4" sortIndex="82" version="0" name="0072" readOnly="false" isSet="true" visible="false" value="latin.small.letter.r" id="82" textType="0"/>	   
+<Parameter type="4" sortIndex="83" version="0" name="0073" readOnly="false" isSet="true" visible="false" value="latin.small.letter.s" id="83" textType="0"/>	   
+<Parameter type="4" sortIndex="84" version="0" name="0074" readOnly="false" isSet="true" visible="false" value="latin.small.letter.t" id="84" textType="0"/>	   
+<Parameter type="4" sortIndex="85" version="0" name="0075" readOnly="false" isSet="true" visible="false" value="latin.small.letter.u" id="85" textType="0"/>	   
+<Parameter type="4" sortIndex="86" version="0" name="0076" readOnly="false" isSet="true" visible="false" value="latin.small.letter.v" id="86" textType="0"/>	   
+<Parameter type="4" sortIndex="87" version="0" name="0077" readOnly="false" isSet="true" visible="false" value="latin.small.letter.w" id="87" textType="0"/>	   
+<Parameter type="4" sortIndex="88" version="0" name="0078" readOnly="false" isSet="true" visible="false" value="latin.small.letter.x" id="88" textType="0"/>	   
+<Parameter type="4" sortIndex="89" version="0" name="0079" readOnly="false" isSet="true" visible="false" value="latin.small.letter.y" id="89" textType="0"/>	   
+<Parameter type="4" sortIndex="90" version="0" name="007A" readOnly="false" isSet="true" visible="false" value="latin.small.letter.z" id="90" textType="0"/>	 
+
+</Parameters>

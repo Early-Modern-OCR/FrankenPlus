@@ -136,7 +136,8 @@ namespace Franken_.App_Code
 
                     for (int x = 0; x < GlyphFiles.Length; x++)
                     {
-                        if (GlyphFiles[x].Replace(PathToImages + "\\", "").Replace(BaseName + "_", "").Replace(".tif", "") == E.ID)
+                        string PossibleID = GlyphFiles[x].ToLower().Replace(PathToImages.ToLower() + "\\", "").Replace(BaseName.ToLower() + "_", "").Replace(".tif", "");
+                        if (PossibleID == E.ID)
                         {
                             ImagePath = GlyphFiles[x].Replace(db.DataDirectory, "");
                             break;
